@@ -1,0 +1,6 @@
+module Main where
+
+import IPv6
+
+main :: IO ()
+main = print (showIPv6Address (IPv6Address 0x2001 0x08B0 0x087E 0xCFFD 0x0000 0x0000 0x0000 0x0001))
